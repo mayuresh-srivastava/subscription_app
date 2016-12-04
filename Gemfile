@@ -31,7 +31,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 gem 'devise'
 gem 'rename'
-gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+gem 'stripe'#, :git => 'https://github.com/stripe/stripe-ruby'
 gem 'dotenv-rails', :group => [:development, :test]
 
 group :development, :test do
