@@ -23,6 +23,7 @@ default: &default
 
 development:
   <<: *default
+  host: localhost
   database: subscribtion-app_development
   username: lenny
   password: leonard
